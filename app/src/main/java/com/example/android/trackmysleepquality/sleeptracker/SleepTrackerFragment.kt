@@ -115,7 +115,7 @@ class SleepTrackerFragment : Fragment() {
             night?.let{
 
                 this.findNavController().navigate(
-                        SleepTrackerFragmentDirections
+                        SleepTrackerFragmentDirections// error
                                 .actionSleepTrackerFragmentToSleepDetailFragment(night))
                         sleepTrackerViewModel.onSleepDataQualityNavigated()
             }
